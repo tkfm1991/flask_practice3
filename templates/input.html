@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>お名前を入力して下さい</title>
+    </head>
+    <body>
+        <!-- <form method="get" action="{{ url_for('output')}}"> -->
+        <form method="post" action="{{ url_for('output')}}">
+            <p>名前：<input type="text" name="name" size="40" /></p>
+            <button type="submit">送信</button>
+        </form>
+    </body>
+</html>
